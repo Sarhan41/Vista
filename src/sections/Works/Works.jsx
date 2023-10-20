@@ -1,6 +1,6 @@
 import React from "react";
 
-const HowItWorks = () => {
+const Works = () => {
   return (
     <div className="my-28">
       <div id="typography" className="text-center flex-center flex-col">
@@ -20,4 +20,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default Works;
