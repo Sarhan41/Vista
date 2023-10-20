@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+.flex-start {
+  @apply flex justify-start items-start;
+}
+.flex-center {
+  @apply flex justify-center items-center;
+}
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.flex-end {
+  @apply flex justify-end items-center;
+}
+
+.button {
+  @apply font-semibold text-lg text-white rounded-md bg-gradient-to-r from-[#ff2c55] via-[#ff784e] to-[#ffbc40] px-8 mt-6 hover:from-[#ff7e5f] hover:via-[#ffac5d] hover:to-[#ffd35a];
+}
+
+.bg-g {
+  @apply bg-green-700;
+}
+.bg-b {
+  @apply bg-blue-700;
+}
+.bg-t {
+  @apply bg-teal-700;
+}
+.bg-gr {
+  @apply bg-gray-700;
+}
+
+.g {
+  @apply ring-green-700;
+}
+.b {
+  @apply ring-blue-700;
+}
+.t {
+  @apply ring-teal-700;
+}
+.gr {
+  @apply ring-gray-700;
+}
