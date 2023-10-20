@@ -2,6 +2,13 @@
 
 Vista is a web application created with React and styled using Tailwind CSS. This project represents my first experience with implementing a dark theme, enhancing the visual appeal of the user interface.
 
+## Live Demo
+
+Experience Vista live at the following link: [Vista Live Demo](https://vista-99.vercel.app)
+
+Feel free to explore and provide feedback!
+
+
 ## Screenshots
 
 ![Screenshot 1](/screenshots/image1.png)
@@ -9,11 +16,6 @@ Vista is a web application created with React and styled using Tailwind CSS. Thi
 ![Screenshot 3](/screenshots/image3.png)
 
 
-## Live Demo
-
-Experience Vista live at the following link: [Vista Live Demo](https://vista-99.vercel.app)
-
-Feel free to explore and provide feedback!
 
 ## Contact
 
