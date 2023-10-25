@@ -13,7 +13,7 @@ const SideBar = () => {
     <section>
       <div
         id="side-bar-overlay"
-        className={`bg-gray-200 w-[40vw] h-screen absolute z-50 top-0 left-0 shadow-xl transform ${
+        className={`bg-gray-200 w-[40vw] h-screen fixed z-50 top-0 left-0 shadow-xl transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform ease-in-out duration-300
         `}
@@ -24,7 +24,7 @@ const SideBar = () => {
             className="h-10 w-10 cursor-pointer text-red-900"
           />
         </div>
-        <ul className="mt-4 z-100  ml-6 space-y-8">
+        <ul className="mt-44 z-100  ml-6 space-y-8">
           {NavLinks.map((link) => (
             <li key={link.path} className="flex-wrap">
               <Link

@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ title, price, description ,  color }) => {
   return (
-    <div className={`bg-${color} rounded-lg overflow-hidden shadow-lg p-4  transform scale-100 hover:scale-105 transition-transform ease-in-out duration-300 cursor-pointer`}>
+    <div className={`bg-${color} rounded-lg  overflow-hidden  ease-in-out  p-4 transition-transform cursor-pointer shadow-lg   duration-300 hover:scale-105`}>
    
 
       <h2 className="text-2xl font-young text-white mb-2">{title}</h2>
@@ -13,3 +13,4 @@ const Card = ({ title, price, description ,  color }) => {
 };
 
 export default Card;
+//       scale-100
